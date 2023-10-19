@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  body{
+    @apply bg-black;
+  }
+  ion-icon{
+    @apply w-[30px] h-[30px] xl:w-[20px] xl:h-[20px] mobile:w-[10px] mobile:h-[10px];
+  }
+}
